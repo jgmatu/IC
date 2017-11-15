@@ -43,7 +43,7 @@ public class ExceptionConfigurationTests {
     private ObjectMapper obj;
     
     @Before
-	public void init(){
+	public void init(){   
 		productRestController = new ProductRestController();
 		obj = new ObjectMapper();
 		mockMvc = MockMvcBuilders.standaloneSetup(productRestController)
