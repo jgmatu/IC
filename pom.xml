@@ -22,6 +22,8 @@
 		<sonar.jacoco.reportPaths>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPaths>
 		<sonar.exclusions>src/main/java/jpau/iwcn/master/configurations/SwaggerConfiguration.java, src/main/java/jpau/iwcn/master/MainApp.java</sonar.exclusions>
 		<sonar.language>java</sonar.language>
+
+		
 	</properties>
 
 	<dependencies>
